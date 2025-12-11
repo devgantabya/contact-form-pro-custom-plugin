@@ -1,0 +1,11 @@
+.cfp-form {
+    max-width: 500px;
+}
+.cfp-form input, .cfp-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.cfp-success {
+    background: #c8f7c5;
+    padding: 10px;
+}

@@ -9,6 +9,17 @@
 if (!defined('ABSPATH'))
     exit;
 
+require_once plugin_dir_path(__FILE__) . 'includes/cpt-form.php';
+require_once plugin_dir_path(__FILE__) . 'includes/cpt-submission.php';
+
+
+require_once plugin_dir_path(__FILE__) . 'includes/shortcode-form.php';
+require_once plugin_dir_path(__FILE__) . 'includes/handle-submission.php';
+
+
+require_once plugin_dir_path(__FILE__) . 'includes/admin-menu.php';
+require_once plugin_dir_path(__FILE__) . 'includes/admin-submissions-page.php';
+
 
 
 add_action('wp_enqueue_scripts', function () {
